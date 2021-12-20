@@ -22,11 +22,35 @@ img{
     -o-object-fit:cover;
        object-fit:cover;
   }
-.course {
+.course{
     display:flex;
-    flex-direction:column;
-    width:320px;
+    width:90%;
+    margin:0 auto;
+  }
+#course {
+    display: flex;
+    justify-content: space-evenly;
 }
+#course .item{
+  gap: 1em;
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  margin: 2em 1em;
+ }
 .course img{
     width:100%;
 }
+
+
+  /* todos 
+.item .description{}
+
+.item .info-url{}
+
+.item .basket{}
+
+.item .more-info{}  
+  
+.item .title{
+*/
